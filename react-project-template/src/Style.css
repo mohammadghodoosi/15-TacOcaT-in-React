@@ -2,11 +2,15 @@ footer{
   position: fixed;
   bottom:0;
   width:100%;
+  background-color: orange;
 }
 .page-container{
   display:flex;
   flex-direction: column;
   min-height:100vh;
+}
+span{
+  text-transform: lowercase;
 }
 .content-wrap{
   flex:1;
@@ -42,17 +46,22 @@ p,div,strong,a,li{
 h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
   font-family: 'Philosopher', sans-serif;
-  color:#1d5888
+  color:#003057
+}
+
+.alertCol{
+  background-color:#ac5f00;
 }
 
 .btn{
   font-family: 'PT Sans', sans-serif;
-  background-color: #1d5888;
+  font-weight: bolder;
+  background-color:#ac5f00;
   color:white
 }
 
 .fa-li{
-  color:#1d5888
+  color:#003057
 }
 
 #navBrand{
